@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 450px;
+}
+.logo {
+  padding-left: 64px;
+  width: 136px;
+  height: 16px;
+}
+.nav {
+  display: flex;
+  gap: 32px;
+}
+.navLink:hover,
+.navLink:focus {
+  color: rgba(216, 67, 67, 1);
+}
+.navLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.span {
+  color: rgba(71, 84, 103, 1);
+}

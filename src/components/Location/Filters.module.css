@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+}
+
+.filtersCon {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 48px;
+  padding-left: 64px;
+  padding-right: 64px;
+  width: 360px;
+}
+
+.locationCon {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.textCon {
+  /* font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  width: 360px;
+  height: 24px;
+  margin: 0; */
+
+  width: 48px;
+  height: 24px;
+  color: rgba(108, 113, 123, 1);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.svgLocation {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.iconLocation {
+  width: 16px;
+  height: 16px;
+  fill: #000000;
+}
+
+.input {
+  width: 100%;
+  padding-left: 36px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(247, 247, 247, 1);
+
+  height: 56px;
+}
+
+.input::placeholder {
+  color: #bbb;
+}
+
+.VehicleCon {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.textFCon {
+  width: 48px;
+  height: 24px;
+  margin: 0;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.title {
+  width: 181px;
+  height: 24px;
+  margin: 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: relative;
+  padding-bottom: 30px; /* Відступ для заголовка */
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 360px;
+  height: 1px; /* Висота лінії */
+  background-color: #dcdcdc; /* Колір лінії */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.equipmentCon,
+.typeCon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  width: 112px;
+  height: 96px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  color: #000000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.button:hover {
+  border-color: #007bff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:focus {
+  border-color: #ff0000;
+}
+
+.button.active {
+  border-color: #ff0000;
+  background-color: #fff6f6;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  fill: #333;
+}
+
+.sendButton {
+  width: 166px;
+  height: 56px;
+  border: none;
+  padding: 16px 60px 16px 60px;
+  background: rgba(228, 72, 72, 1);
+  margin-bottom: 40px;
+  border-radius: 50px;
+  color: white;
+}
+
+.sendButton:hover {
+  background-color: #e60000;
+}
+
+.sendButton:active {
+  background-color: #cc0000;
+}
